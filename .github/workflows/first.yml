@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       -name: Step two
-       run: echo "hello" 
+       run: echo hello 
   job2:
     name: Second job
     runs-on: windows-latest
